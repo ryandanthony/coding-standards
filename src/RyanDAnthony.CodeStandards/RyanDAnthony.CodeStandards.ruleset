@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="RyanDAnthony.CodeStandards" Description="RyanDAnthony Coding Standards Rule Set" ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.NetAnalyzers" RuleNamespace="Microsoft.CodeAnalysis.NetAnalyzers">
+    <!-- https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/?view=vs-2022 -->
+    <Rule Id="CA1000" Action="Warning" />
+    <Rule Id="CA1001" Action="Info" />
+    <Rule Id="CA1003" Action="Error" />
+    <Rule Id="CA1008" Action="Warning" />
+    <Rule Id="CA1010" Action="Warning" />
+    <Rule Id="CA1012" Action="Warning" />
+    <Rule Id="CA1014" Action="None" />
+    <Rule Id="CA1016" Action="Warning" />
+    <Rule Id="CA1017" Action="None" />
+    <Rule Id="CA1018" Action="Warning" />
+    <Rule Id="CA1019" Action="Error" />
+    <Rule Id="CA1024" Action="None" />
+    <Rule Id="CA1027" Action="None" />
+    <Rule Id="CA1028" Action="Warning" />
+    <Rule Id="CA1030" Action="Warning" />
+    <Rule Id="CA1031" Action="None" />
+    <Rule Id="CA1032" Action="Warning" />
+    <Rule Id="CA1033" Action="Warning" />
+    <Rule Id="CA1034" Action="Warning" />
+    <Rule Id="CA1036" Action="Warning" />
+    <Rule Id="CA1040" Action="Warning" />
+    <Rule Id="CA1041" Action="Error" />
+    <Rule Id="CA1043" Action="Warning" />
+    <Rule Id="CA1044" Action="Warning" />
+    <Rule Id="CA1050" Action="Error" />
+    <Rule Id="CA1051" Action="Error" />
+    <Rule Id="CA1052" Action="Error" />
+    <Rule Id="CA1054" Action="Warning" />
+    <Rule Id="CA1055" Action="Warning" />
+    <Rule Id="CA1056" Action="None" />
+    <Rule Id="CA1058" Action="Error" />
+    <Rule Id="CA1060" Action="None" />
+    <Rule Id="CA1061" Action="Error" />
+    <Rule Id="CA1062" Action="Warning" />
+    <Rule Id="CA1063" Action="Error" />
+    <Rule Id="CA1064" Action="Error" />
+    <Rule Id="CA1065" Action="Warning" />
+    <Rule Id="CA1066" Action="Warning" />
+    <Rule Id="CA1067" Action="Warning" />
+    <Rule Id="CA1068" Action="Warning" />
+    <Rule Id="CA1200" Action="Warning" />
+    <Rule Id="CA1303" Action="None" />
+    <Rule Id="CA1304" Action="Warning" />
+    <Rule Id="CA1305" Action="Warning" />
+    <Rule Id="CA1307" Action="Warning" />
+    <Rule Id="CA1308" Action="None" />
+    <Rule Id="CA1309" Action="None" />
+    <Rule Id="CA1401" Action="Warning" />
+    <Rule Id="CA1501" Action="Warning" />
+    <Rule Id="CA1502" Action="Warning" />
+    <Rule Id="CA1505" Action="Warning" />
+    <Rule Id="CA1506" Action="None" />
+    <Rule Id="CA1507" Action="Warning" />
+    <Rule Id="CA1508" Action="None" />
+    <Rule Id="CA1509" Action="None" />
+    <Rule Id="CA1707" Action="Warning" />
+    <Rule Id="CA1708" Action="Warning" />
+    <Rule Id="CA1710" Action="Warning" />
+    <Rule Id="CA1711" Action="None" />
+    <Rule Id="CA1712" Action="Warning" />
+    <Rule Id="CA1714" Action="Warning" />
+    <Rule Id="CA1715" Action="Warning" />
+    <Rule Id="CA1716" Action="Warning" />
+    <Rule Id="CA1717" Action="Warning" />
+    <Rule Id="CA1720" Action="Warning" />
+    <Rule Id="CA1721" Action="Warning" />
+    <Rule Id="CA1724" Action="None" />
+    <Rule Id="CA1725" Action="None" />
+    <Rule Id="CA1801" Action="Warning" />
+    <Rule Id="CA1802" Action="Warning" />
+    <Rule Id="CA1806" Action="Warning" />
+    <Rule Id="CA1810" Action="Warning" />
+    <Rule Id="CA1812" Action="None" />
+    <Rule Id="CA1813" Action="None" />
+    <Rule Id="CA1814" Action="Warning" />
+    <Rule Id="CA1815" Action="Warning" />
+    <Rule Id="CA1816" Action="Warning" />
+    <Rule Id="CA1819" Action="Warning" />
+    <Rule Id="CA1820" Action="Warning" />
+    <Rule Id="CA1821" Action="Warning" />
+    <Rule Id="CA1822" Action="Info" />
+    <Rule Id="CA1823" Action="Warning" />
+    <Rule Id="CA1824" Action="Warning" />
+    <Rule Id="CA1825" Action="Warning" />
+    <Rule Id="CA1826" Action="Warning" />
+    <Rule Id="CA1827" Action="Warning" />
+    <Rule Id="CA1828" Action="Warning" />
+    <Rule Id="CA1829" Action="Warning" />
+    <Rule Id="CA2000" Action="Warning" />
+    <Rule Id="CA2002" Action="Error" />
+    <Rule Id="CA2007" Action="Warning" />
+    <Rule Id="CA2008" Action="Warning" />
+    <Rule Id="CA2009" Action="Warning" />
+    <Rule Id="CA2010" Action="Warning" />
+    <Rule Id="CA2100" Action="Warning" />
+    <Rule Id="CA2101" Action="Warning" />
+    <Rule Id="CA2119" Action="Warning" />
+    <Rule Id="CA2153" Action="Warning" />
+    <Rule Id="CA2200" Action="Error" />
+    <Rule Id="CA2201" Action="None" />
+    <Rule Id="CA2207" Action="Warning" />
+    <Rule Id="CA2208" Action="Warning" />
+    <Rule Id="CA2211" Action="Warning" />
+    <Rule Id="CA2213" Action="Warning" />
+    <Rule Id="CA2214" Action="Warning" />
+    <Rule Id="CA2216" Action="Warning" />
+    <Rule Id="CA2217" Action="None" />
+    <Rule Id="CA2218" Action="Error" />
+    <Rule Id="CA2219" Action="Warning" />
+    <Rule Id="CA2224" Action="Warning" />
+    <Rule Id="CA2225" Action="Warning" />
+    <Rule Id="CA2226" Action="Warning" />
+    <Rule Id="CA2227" Action="None" />
+    <Rule Id="CA2229" Action="Warning" />
+    <Rule Id="CA2231" Action="Warning" />
+    <Rule Id="CA2234" Action="Warning" />
+    <Rule Id="CA2235" Action="Warning" />
+    <Rule Id="CA2237" Action="Warning" />
+    <Rule Id="CA2241" Action="Warning" />
+    <Rule Id="CA2242" Action="Warning" />
+    <Rule Id="CA2243" Action="Warning" />
+    <Rule Id="CA2244" Action="Warning" />
+    <Rule Id="CA2245" Action="Warning" />
+    <Rule Id="CA2246" Action="Warning" />
+    <Rule Id="CA2300" Action="None" />
+    <Rule Id="CA2301" Action="None" />
+    <Rule Id="CA2302" Action="None" />
+    <Rule Id="CA2305" Action="None" />
+    <Rule Id="CA2310" Action="None" />
+    <Rule Id="CA2311" Action="None" />
+    <Rule Id="CA2312" Action="None" />
+    <Rule Id="CA2315" Action="None" />
+    <Rule Id="CA2321" Action="None" />
+    <Rule Id="CA2322" Action="None" />
+    <Rule Id="CA2326" Action="None" />
+    <Rule Id="CA2327" Action="None" />
+    <Rule Id="CA2328" Action="None" />
+    <Rule Id="CA2329" Action="None" />
+    <Rule Id="CA2330" Action="None" />
+    <Rule Id="CA3001" Action="None" />
+    <Rule Id="CA3002" Action="None" />
+    <Rule Id="CA3003" Action="None" />
+    <Rule Id="CA3004" Action="None" />
+    <Rule Id="CA3005" Action="None" />
+    <Rule Id="CA3006" Action="None" />
+    <Rule Id="CA3007" Action="None" />
+    <Rule Id="CA3008" Action="None" />
+    <Rule Id="CA3009" Action="None" />
+    <Rule Id="CA3010" Action="None" />
+    <Rule Id="CA3011" Action="None" />
+    <Rule Id="CA3012" Action="None" />
+    <Rule Id="CA3061" Action="Warning" />
+    <Rule Id="CA3075" Action="Warning" />
+    <Rule Id="CA3076" Action="Warning" />
+    <Rule Id="CA3077" Action="Warning" />
+    <Rule Id="CA3147" Action="Warning" />
+    <Rule Id="CA5350" Action="Warning" />
+    <Rule Id="CA5351" Action="Warning" />
+    <Rule Id="CA5358" Action="None" />
+    <Rule Id="CA5359" Action="Warning" />
+    <Rule Id="CA5360" Action="Warning" />
+    <Rule Id="CA5361" Action="Warning" />
+    <Rule Id="CA5362" Action="None" />
+    <Rule Id="CA5363" Action="Warning" />
+    <Rule Id="CA5364" Action="Warning" />
+    <Rule Id="CA5365" Action="Warning" />
+    <Rule Id="CA5366" Action="Warning" />
+    <Rule Id="CA5367" Action="None" />
+    <Rule Id="CA5368" Action="Warning" />
+    <Rule Id="CA5369" Action="Warning" />
+    <Rule Id="CA5370" Action="Warning" />
+    <Rule Id="CA5371" Action="Warning" />
+    <Rule Id="CA5372" Action="Warning" />
+    <Rule Id="CA5373" Action="Warning" />
+    <Rule Id="CA5374" Action="Warning" />
+    <Rule Id="CA5375" Action="None" />
+    <Rule Id="CA5376" Action="Warning" />
+    <Rule Id="CA5377" Action="Warning" />
+    <Rule Id="CA5378" Action="Warning" />
+    <Rule Id="CA5379" Action="Warning" />
+    <Rule Id="CA5380" Action="Warning" />
+    <Rule Id="CA5381" Action="Warning" />
+    <Rule Id="CA5382" Action="None" />
+    <Rule Id="CA5383" Action="None" />
+    <Rule Id="CA5384" Action="Warning" />
+    <Rule Id="CA5385" Action="Warning" />
+    <Rule Id="CA5386" Action="None" />
+    <Rule Id="CA5387" Action="None" />
+    <Rule Id="CA5388" Action="None" />
+    <Rule Id="CA5389" Action="None" />
+    <Rule Id="CA5390" Action="None" />
+    <Rule Id="CA5391" Action="None" />
+    <Rule Id="CA5392" Action="None" />
+    <Rule Id="CA5393" Action="None" />
+    <Rule Id="CA5394" Action="None" />
+    <Rule Id="CA5395" Action="None" />
+    <Rule Id="CA5396" Action="None" />
+    <Rule Id="CA5397" Action="Warning" />
+    <Rule Id="CA5398" Action="None" />
+    <Rule Id="CA5399" Action="None" />
+    <Rule Id="CA5400" Action="None" />
+    <Rule Id="CA5401" Action="None" />
+    <Rule Id="CA5402" Action="None" />
+    <Rule Id="CA5403" Action="None" />
+    <Rule Id="CA9999" Action="Warning" />
+  </Rules>
+   <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA0001" Action="Info" />
+
+    <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SpacingRules.md -->
+    <!-- <Rule Id="SA1000" Action="Default" />
+    <Rule Id="SA1001" Action="Default" />
+    <Rule Id="SA1002" Action="Default" />
+    <Rule Id="SA1003" Action="Default" />
+    <Rule Id="SA1004" Action="Default" /> -->
+    <Rule Id="SA1005" Action="None" />
+    <!-- <Rule Id="SA1006" Action="Default" />
+    <Rule Id="SA1007" Action="Default" />
+    <Rule Id="SA1008" Action="Default" />
+    <Rule Id="SA1009" Action="Default" />
+
+    <Rule Id="SA1010" Action="Default" />
+    <Rule Id="SA1011" Action="Default" />
+    <Rule Id="SA1012" Action="Default" />
+    <Rule Id="SA1013" Action="Default" />
+    <Rule Id="SA1014" Action="Default" />
+    <Rule Id="SA1015" Action="Default" />
+    <Rule Id="SA1016" Action="Default" />
+    <Rule Id="SA1017" Action="Default" />
+    <Rule Id="SA1018" Action="Default" />
+    <Rule Id="SA1019" Action="Default" />
+
+    <Rule Id="SA1020" Action="Default" />
+    <Rule Id="SA1021" Action="Default" />
+    <Rule Id="SA1022" Action="Default" />
+    <Rule Id="SA1023" Action="Default" />
+    <Rule Id="SA1024" Action="Default" />
+    <Rule Id="SA1025" Action="Default" />
+    <Rule Id="SA1026" Action="Default" />
+    <Rule Id="SA1027" Action="Default" />
+    <Rule Id="SA1028" Action="Default" /> -->
+
+    <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/ReadabilityRules.md -->
+    <!-- <Rule Id="SA1100" Action="Default" /> -->
+    <Rule Id="SA1101" Action="None" />
+    <!-- <Rule Id="SA1102" Action="Default" />
+    <Rule Id="SA1103" Action="Default" />
+    <Rule Id="SA1104" Action="Default" />
+    <Rule Id="SA1105" Action="Default" />
+    <Rule Id="SA1106" Action="Default" />
+    <Rule Id="SA1107" Action="Default" />
+    <Rule Id="SA1108" Action="Default" />
+    <Rule Id="SA1109" Action="Default" />
+
+    <Rule Id="SA1110" Action="Default" />
+    <Rule Id="SA1111" Action="Default" />
+    <Rule Id="SA1112" Action="Default" />
+    <Rule Id="SA1113" Action="Default" />
+    <Rule Id="SA1114" Action="Default" />
+    <Rule Id="SA1115" Action="Default" />
+    <Rule Id="SA1116" Action="Default" />
+    <Rule Id="SA1117" Action="Default" />
+    <Rule Id="SA1118" Action="Default" />
+    <Rule Id="SA1119" Action="Default" /> -->
+
+    <Rule Id="SA1120" Action="None" />
+    <!-- <Rule Id="SA1121" Action="Default" />
+    <Rule Id="SA1122" Action="Default" /> -->
+    <Rule Id="SA1123" Action="None" />
+    <Rule Id="SA1124" Action="None" />
+    <!-- <Rule Id="SA1125" Action="Default" />
+    <Rule Id="SA1126" Action="Default" />
+    <Rule Id="SA1127" Action="Default" />
+    <Rule Id="SA1128" Action="Default" />
+    <Rule Id="SA1129" Action="Default" />
+
+    <Rule Id="SA1130" Action="Default" />
+    <Rule Id="SA1131" Action="Default" />
+    <Rule Id="SA1132" Action="Default" />
+    <Rule Id="SA1133" Action="Default" />
+    <Rule Id="SA1134" Action="Default" />
+    <Rule Id="SA1135" Action="Default" />
+    <Rule Id="SA1136" Action="Default" />
+    <Rule Id="SA1137" Action="Default" />
+    <Rule Id="SA1138" Action="Default" />
+    <Rule Id="SA1139" Action="Default" />
+
+    <Rule Id="SA1140" Action="Default" />
+    <Rule Id="SA1141" Action="Default" />
+    <Rule Id="SA1142" Action="Default" /> -->
+
+    <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/OrderingRules.md -->
+    <!-- <Rule Id="SA1200" Action="Default" /> -->
+    <Rule Id="SA1201" Action="None" />
+    <Rule Id="SA1202" Action="None" />
+    <Rule Id="SA1203" Action="None" />
+    <Rule Id="SA1204" Action="None" />
+    <!-- <Rule Id="SA1205" Action="Default" />
+    <Rule Id="SA1206" Action="Default" />
+    <Rule Id="SA1207" Action="Default" /> -->
+    <Rule Id="SA1208" Action="None" />
+    <!-- <Rule Id="SA1209" Action="Default" />
+    <Rule Id="SA1210" Action="Default" />
+    <Rule Id="SA1211" Action="Default" />
+    <Rule Id="SA1212" Action="Default" />
+    <Rule Id="SA1213" Action="Default" /> -->
+    <Rule Id="SA1214" Action="None" />
+    <Rule Id="SA1215" Action="None" />
+    <!-- <Rule Id="SA1216" Action="Default" />
+    <Rule Id="SA1217" Action="Default" /> -->
+
+
+    <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/NamingRules.md -->
+    <!-- <Rule Id="SA1300" Action="Default" /> -->
+    <Rule Id="SA1301" Action="None" />
+    <!-- <Rule Id="SA1302" Action="Default" />
+    <Rule Id="SA1303" Action="Default" /> -->
+    <Rule Id="SA1304" Action="None" />
+    <Rule Id="SA1305" Action="None" />
+    <!-- <Rule Id="SA1306" Action="Default" />
+    <Rule Id="SA1307" Action="Default" />
+    <Rule Id="SA1308" Action="Default" /> -->
+    <Rule Id="SA1309" Action="None" />
+
+    <!-- <Rule Id="SA1310" Action="Default" />
+    <Rule Id="SA1311" Action="Default" />
+    <Rule Id="SA1312" Action="Default" />
+    <Rule Id="SA1313" Action="Default" />
+    <Rule Id="SA1314" Action="Default" />
+    <Rule Id="SA1316" Action="Default" />     -->
+
+    <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/MaintainabilityRules.md-->
+    <Rule Id="SA1119" Action="None" />
+
+    <!-- <Rule Id="SA1400" Action="Default" />
+    <Rule Id="SA1401" Action="Default" /> -->
+    <Rule Id="SA1402" Action="None" />
+    <!-- <Rule Id="SA1403" Action="Default" />
+    <Rule Id="SA1404" Action="Default" />
+    <Rule Id="SA1405" Action="Default" />
+    <Rule Id="SA1406" Action="Default" />
+    <Rule Id="SA1407" Action="Default" />
+    <Rule Id="SA1408" Action="Default" />
+    <Rule Id="SA1409" Action="Default" /> -->
+
+    <!-- <Rule Id="SA1410" Action="Default" />
+    <Rule Id="SA1411" Action="Default" /> -->
+    <Rule Id="SA1412" Action="None" />
+    <!-- <Rule Id="SA1413" Action="Default" />
+    <Rule Id="SA1414" Action="Default" /> -->
+
+    <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/LayoutRules.md-->
+    <!-- <Rule Id="SA1500" Action="Default" />
+    <Rule Id="SA1501" Action="Default" /> -->
+    <Rule Id="SA1502" Action="None" />
+    <!-- <Rule Id="SA1503" Action="Default" />
+    <Rule Id="SA1504" Action="Default" /> -->
+    <Rule Id="SA1505" Action="None" />
+    <!-- <Rule Id="SA1506" Action="Default" />
+    <Rule Id="SA1507" Action="Default" /> -->
+    <Rule Id="SA1508" Action="None" />
+    <Rule Id="SA1509" Action="None" />
+
+    <!-- <Rule Id="SA1510" Action="Default" />
+    <Rule Id="SA1511" Action="Default" /> -->
+    <Rule Id="SA1512" Action="None" />
+    <Rule Id="SA1513" Action="None" />
+    <!-- <Rule Id="SA1514" Action="Default" /> -->
+    <Rule Id="SA1515" Action="None" />
+    <Rule Id="SA1516" Action="None" />
+    <!-- <Rule Id="SA1517" Action="Default" />
+    <Rule Id="SA1518" Action="Default" />
+    <Rule Id="SA1519" Action="Default" /> -->
+
+    <!-- <Rule Id="SA1520" Action="Default" /> -->
+
+    <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/DocumentationRules.md-->
+    <Rule Id="SA1600" Action="None" />
+    <!-- <Rule Id="SA1601" Action="Default" />
+    <Rule Id="SA1602" Action="Default" />
+    <Rule Id="SA1603" Action="Default" />
+    <Rule Id="SA1604" Action="Default" />
+    <Rule Id="SA1605" Action="Default" />
+    <Rule Id="SA1606" Action="Default" />
+    <Rule Id="SA1607" Action="Default" />
+    <Rule Id="SA1608" Action="Default" />
+    <Rule Id="SA1609" Action="Default" />
+
+    <Rule Id="SA1610" Action="Default" />
+    <Rule Id="SA1611" Action="Default" />
+    <Rule Id="SA1612" Action="Default" />
+    <Rule Id="SA1613" Action="Default" />
+    <Rule Id="SA1614" Action="Default" />
+    <Rule Id="SA1615" Action="Default" />
+    <Rule Id="SA1616" Action="Default" />
+    <Rule Id="SA1617" Action="Default" />
+    <Rule Id="SA1618" Action="Default" />
+    <Rule Id="SA1619" Action="Default" />
+
+    <Rule Id="SA1620" Action="Default" />
+    <Rule Id="SA1621" Action="Default" />
+    <Rule Id="SA1622" Action="Default" />
+    <Rule Id="SA1623" Action="Default" />
+    <Rule Id="SA1624" Action="Default" />
+    <Rule Id="SA1625" Action="Default" />
+    <Rule Id="SA1626" Action="Default" />
+    <Rule Id="SA1627" Action="Default" />
+    <Rule Id="SA1628" Action="Default" /> -->
+    <Rule Id="SA1629" Action="None" />
+
+    <!-- <Rule Id="SA1630" Action="Default" /> -->
+    <Rule Id="SA1631" Action="None" />
+    <!-- <Rule Id="SA1632" Action="Default" />
+    <Rule Id="SA1633" Action="Default" />
+    <Rule Id="SA1634" Action="Default" />
+    <Rule Id="SA1635" Action="Default" /> -->
+    <Rule Id="SA1636" Action="Error" />
+    <!-- <Rule Id="SA1637" Action="Default" />
+    <Rule Id="SA1638" Action="Default" />
+    <Rule Id="SA1639" Action="Default" />
+
+    <Rule Id="SA1640" Action="Default" />
+    <Rule Id="SA1641" Action="Default" />
+    <Rule Id="SA1642" Action="Default" />
+    <Rule Id="SA1643" Action="Default" />
+    <Rule Id="SA1644" Action="Default" />
+    <Rule Id="SA1645" Action="Default" />
+    <Rule Id="SA1646" Action="Default" />
+    <Rule Id="SA1647" Action="Default" />
+    <Rule Id="SA1648" Action="Default" /> -->
+    <Rule Id="SA1649" Action="Info" />
+
+    <Rule Id="SA1650" Action="None" />
+    <!-- <Rule Id="SA1651" Action="Default" /> -->
+    <Rule Id="SA1652" Action="Info" />
+    <Rule Id="SX1309" Action="Error" />
+  </Rules>
+</RuleSet>
